@@ -1,0 +1,10 @@
+profession_classifier:
+  type: "heuristic"   # later: "llm" or "sklearn"
+  model_name: "mistral"
+
+content_generator:
+  type: "heuristic"
+  model_name: "mistral"
+
+ats_scorer:
+  type: "heuristic"
