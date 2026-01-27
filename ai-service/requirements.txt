@@ -8,3 +8,4 @@ spacy==3.7.2
 pydantic==2.5.3
 python-multipart==0.0.6
 ollama==0.1.6
+loguru==0.7.2
