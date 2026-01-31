@@ -1,0 +1,34 @@
+{
+  "profession": "marketing",
+  "specialization": "strategy",
+  "seniority": "senior",
+  "sectionOrder": ["summary", "experience", "leadership", "skills", "projects", "education"],
+  "keywords": [
+    "marketing-strategy",
+    "brand-positioning",
+    "go-to-market",
+    "integrated-campaigns",
+    "budget-management",
+    "team-leadership",
+    "stakeholder-management",
+    "market-research",
+    "customer-segmentation",
+    "lifecycle-marketing",
+    "revenue-growth",
+    "kpi-tracking",
+    "cross-functional-collaboration"
+  ],
+  "bulletConstraints": {
+    "summaryMaxLines": 6,
+    "experienceMaxLines": 16,
+    "educationMaxLines": 6,
+    "skillsMaxLines": 10,
+    "projectsMaxLines": 10
+  },
+  "active": true,
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-01-31T00:00:00Z",
+    "atsCompatible": true
+  }
+}
