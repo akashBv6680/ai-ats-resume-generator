@@ -209,5 +209,184 @@
       "projectsMaxLines": 10
     },
     "active": true
+  },
+  {
+    "key": "marketing.junior",
+    "profession": "marketing",
+    "specialization": "digital",
+    "seniority": "junior",
+    "sectionOrder": ["summary", "education", "skills", "experience"],
+    "keywords": [
+      "digital-marketing",
+      "social-media",
+      "content-creation",
+      "seo",
+      "sem",
+      "google-analytics",
+      "email-marketing",
+      "copywriting",
+      "campaign-support",
+      "brand-awareness",
+      "engagement",
+      "reporting"
+    ],
+    "bulletConstraints": {
+      "summaryMaxLines": 4,
+      "experienceMaxLines": 6,
+      "educationMaxLines": 8,
+      "skillsMaxLines": 8,
+      "projectsMaxLines": 0
+    },
+    "active": true
+  },
+  {
+    "key": "marketing.mid-level",
+    "profession": "marketing",
+    "specialization": "performance",
+    "seniority": "mid-level",
+    "sectionOrder": ["summary", "experience", "skills", "projects", "education"],
+    "keywords": [
+      "performance-marketing",
+      "campaign-management",
+      "paid-search",
+      "paid-social",
+      "conversion-optimization",
+      "funnel-analysis",
+      "google-ads",
+      "facebook-ads",
+      "roi",
+      "cpa",
+      "cpc",
+      "ctr",
+      "analytics",
+      "segmentation",
+      "a-b-testing"
+    ],
+    "bulletConstraints": {
+      "summaryMaxLines": 5,
+      "experienceMaxLines": 12,
+      "educationMaxLines": 6,
+      "skillsMaxLines": 10,
+      "projectsMaxLines": 8
+    },
+    "active": true
+  },
+  {
+    "key": "marketing.senior",
+    "profession": "marketing",
+    "specialization": "strategy",
+    "seniority": "senior",
+    "sectionOrder": ["summary", "experience", "leadership", "skills", "projects", "education"],
+    "keywords": [
+      "marketing-strategy",
+      "brand-positioning",
+      "go-to-market",
+      "integrated-campaigns",
+      "budget-management",
+      "team-leadership",
+      "stakeholder-management",
+      "market-research",
+      "customer-segmentation",
+      "lifecycle-marketing",
+      "revenue-growth",
+      "kpi-tracking",
+      "cross-functional-collaboration"
+    ],
+    "bulletConstraints": {
+      "summaryMaxLines": 6,
+      "experienceMaxLines": 16,
+      "educationMaxLines": 6,
+      "skillsMaxLines": 10,
+      "projectsMaxLines": 10
+    },
+    "active": true
+  },
+  {
+    "key": "finance.junior",
+    "profession": "finance",
+    "specialization": "analyst",
+    "seniority": "junior",
+    "sectionOrder": ["summary", "education", "skills", "experience"],
+    "keywords": [
+      "financial-analysis",
+      "excel",
+      "forecasting",
+      "budgeting",
+      "variance-analysis",
+      "reporting",
+      "accounting",
+      "reconciliation",
+      "ms-excel",
+      "powerpoint",
+      "data-analysis",
+      "kpi-tracking"
+    ],
+    "bulletConstraints": {
+      "summaryMaxLines": 4,
+      "experienceMaxLines": 6,
+      "educationMaxLines": 8,
+      "skillsMaxLines": 8,
+      "projectsMaxLines": 0
+    },
+    "active": true
+  },
+  {
+    "key": "finance.mid-level",
+    "profession": "finance",
+    "specialization": "fp-a",
+    "seniority": "mid-level",
+    "sectionOrder": ["summary", "experience", "skills", "education", "projects"],
+    "keywords": [
+      "fp-a",
+      "financial-planning",
+      "forecasting",
+      "budget-management",
+      "scenario-analysis",
+      "cash-flow",
+      "pnl",
+      "balance-sheet",
+      "kpi-dashboards",
+      "stakeholder-reporting",
+      "variance-analysis",
+      "cost-optimization"
+    ],
+    "bulletConstraints": {
+      "summaryMaxLines": 5,
+      "experienceMaxLines": 12,
+      "educationMaxLines": 6,
+      "skillsMaxLines": 10,
+      "projectsMaxLines": 6
+    },
+    "active": true
+  },
+  {
+    "key": "finance.senior",
+    "profession": "finance",
+    "specialization": "leadership",
+    "seniority": "senior",
+    "sectionOrder": ["summary", "experience", "leadership", "skills", "education"],
+    "keywords": [
+      "financial-strategy",
+      "business-partnering",
+      "executive-reporting",
+      "capital-allocation",
+      "risk-management",
+      "governance",
+      "compliance",
+      "board-presentations",
+      "stakeholder-management",
+      "cash-management",
+      "mna",
+      "cost-reduction",
+      "profitability-improvement"
+    ],
+    "bulletConstraints": {
+      "summaryMaxLines": 6,
+      "experienceMaxLines": 16,
+      "educationMaxLines": 6,
+      "skillsMaxLines": 10,
+      "projectsMaxLines": 8
+    },
+    "active": true
   }
 ]
