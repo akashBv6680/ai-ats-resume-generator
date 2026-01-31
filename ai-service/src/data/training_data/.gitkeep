@@ -1,0 +1,4 @@
+# Placeholder for training data used in Phase 3 fine-tuning.
+# You will store JSONL/CSV datasets here, e.g.:
+# - profession-specific resumes
+# - ATS pass/fail labeled examples
