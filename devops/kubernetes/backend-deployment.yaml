@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ats-backend
+  labels:
+    app: ats-backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ats-backend
+  template:
+    metadata:
+      labels:
+        app: ats-backend
+    spec:
+      containers:
+        - name: ats-backend
+          image: your-registry/ats-backend:latest
+          env:
+            - name: NODE_ENV
+              value: "production"
+            - name: PORT
+              value: "4000"
+            - name: MONGO_URI
+              value: "mongodb://ats-mongo:27017/ai_ats_resume"
+            - name: AI_SERVICE_URL
+              value: "http://ats-ai-service:5000"
+          ports:
+            - containerPort: 4000
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ats-backend
+spec:
+  selector:
+    app: ats-backend
+  ports:
+    - port: 4000
+      targetPort: 4000
