@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ATS Resume Template Schema",
+  "description": "JSON-driven ATS-safe resume template definition",
+  "type": "object",
+  "required": [
+    "profession",
+    "seniority",
+    "sectionOrder",
+    "keywords",
+    "bulletConstraints"
+  ],
+  "properties": {
+    "profession": {
+      "type": "string",
+      "description": "Primary profession/category"
+    },
+    "specialization": {
+      "type": "string",
+      "description": "Optional specialization within profession"
+    },
+    "seniority": {
+      "type": "string",
+      "enum": ["junior", "mid-level", "senior"],
+      "description": "Career level"
+    },
+    "sectionOrder": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "summary",
+          "experience",
+          "education",
+          "skills",
+          "projects",
+          "certifications",
+          "leadership"
+        ]
+      },
+      "description": "Exact section display order"
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "ATS-optimized keywords for this template",
+      "minItems": 8,
+      "maxItems": 30
+    },
+    "bulletConstraints": {
+      "type": "object",
+      "description": "Line/bullet limits per section for ATS compatibility",
+      "properties": {
+        "summaryMaxLines": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "experienceMaxLines": { "type": "integer", "minimum": 4, "maximum": 20 },
+        "educationMaxLines": { "type": "integer", "minimum": 2, "maximum": 12 },
+        "skillsMaxLines": { "type": "integer", "minimum": 2, "maximum": 15 },
+        "projectsMaxLines": { "type": "integer", "minimum": 0, "maximum": 12 }
+      },
+      "required": ["summaryMaxLines", "experienceMaxLines"]
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "version": { "type": "string" },
+        "created": { "type": "string", "format": "date-time" },
+        "atsCompatible": { "type": "boolean" }
+      }
+    }
+  },
+  "additionalProperties": false
+}
