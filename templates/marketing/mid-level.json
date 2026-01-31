@@ -1,0 +1,36 @@
+{
+  "profession": "marketing",
+  "specialization": "performance",
+  "seniority": "mid-level",
+  "sectionOrder": ["summary", "experience", "skills", "projects", "education"],
+  "keywords": [
+    "performance-marketing",
+    "campaign-management",
+    "paid-search",
+    "paid-social",
+    "conversion-optimization",
+    "funnel-analysis",
+    "google-ads",
+    "facebook-ads",
+    "roi",
+    "cpa",
+    "cpc",
+    "ctr",
+    "analytics",
+    "segmentation",
+    "a-b-testing"
+  ],
+  "bulletConstraints": {
+    "summaryMaxLines": 5,
+    "experienceMaxLines": 12,
+    "educationMaxLines": 6,
+    "skillsMaxLines": 10,
+    "projectsMaxLines": 8
+  },
+  "active": true,
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-01-31T00:00:00Z",
+    "atsCompatible": true
+  }
+}
