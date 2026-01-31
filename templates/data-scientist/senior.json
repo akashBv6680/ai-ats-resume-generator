@@ -1,0 +1,38 @@
+{
+  "profession": "data-scientist",
+  "specialization": "lead-ml",
+  "seniority": "senior",
+  "sectionOrder": ["summary", "experience", "leadership", "projects", "skills", "education"],
+  "keywords": [
+    "machine-learning-strategy",
+    "end-to-end-ml-pipelines",
+    "mlops",
+    "model-governance",
+    "experiment-design",
+    "causal-inference",
+    "forecasting",
+    "personalization",
+    "recommender-systems",
+    "optimization",
+    "team-leadership",
+    "stakeholder-communication",
+    "roadmap-planning",
+    "business-impact",
+    "a-b-testing",
+    "data-platform",
+    "data-governance"
+  ],
+  "bulletConstraints": {
+    "summaryMaxLines": 6,
+    "experienceMaxLines": 16,
+    "educationMaxLines": 6,
+    "skillsMaxLines": 12,
+    "projectsMaxLines": 10
+  },
+  "active": true,
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-01-31T00:00:00Z",
+    "atsCompatible": true
+  }
+}
