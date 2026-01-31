@@ -1,0 +1,41 @@
+{
+  "profession": "software-engineer",
+  "specialization": "architecture",
+  "seniority": "senior",
+  "sectionOrder": ["summary", "experience", "leadership", "projects", "skills", "education"],
+  "keywords": [
+    "system-design",
+    "software-architecture",
+    "scalability",
+    "high-availability",
+    "distributed-systems",
+    "event-driven-architecture",
+    "performance-optimization",
+    "cloud-architecture",
+    "aws",
+    "azure",
+    "gcp",
+    "kubernetes",
+    "microservices",
+    "security",
+    "compliance",
+    "devops",
+    "team-leadership",
+    "stakeholder-management",
+    "roadmap-planning",
+    "cross-functional-collaboration"
+  ],
+  "bulletConstraints": {
+    "summaryMaxLines": 6,
+    "experienceMaxLines": 16,
+    "educationMaxLines": 6,
+    "skillsMaxLines": 12,
+    "projectsMaxLines": 10
+  },
+  "active": true,
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-01-31T00:00:00Z",
+    "atsCompatible": true
+  }
+}
