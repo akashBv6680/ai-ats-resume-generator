@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ats-ai-service
+  labels:
+    app: ats-ai-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ats-ai-service
+  template:
+    metadata:
+      labels:
+        app: ats-ai-service
+    spec:
+      containers:
+        - name: ats-ai-service
+          image: your-registry/ats-ai-service:latest
+          env:
+            - name: AI_SERVICE_HOST
+              value: "0.0.0.0"
+            - name: AI_SERVICE_PORT
+              value: "5000"
+            - name: AI_SERVICE_OLLAMA_BASE_URL
+              value: "http://ollama:11434"
+          ports:
+            - containerPort: 5000
+          resources:
+            requests:
+              cpu: "200m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "1Gi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ats-ai-service
+spec:
+  selector:
+    app: ats-ai-service
+  ports:
+    - port: 5000
+      targetPort: 5000
