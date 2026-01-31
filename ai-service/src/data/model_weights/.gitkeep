@@ -1,0 +1,4 @@
+# Placeholder for custom/fine-tuned model weights.
+# You will store local model files here, e.g.:
+# - profession_classifier weights
+# - fine-tuned LLM checkpoints
