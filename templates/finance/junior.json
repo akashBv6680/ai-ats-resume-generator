@@ -1,0 +1,33 @@
+{
+  "profession": "finance",
+  "specialization": "analyst",
+  "seniority": "junior",
+  "sectionOrder": ["summary", "education", "skills", "experience"],
+  "keywords": [
+    "financial-analysis",
+    "excel",
+    "forecasting",
+    "budgeting",
+    "variance-analysis",
+    "reporting",
+    "accounting",
+    "reconciliation",
+    "ms-excel",
+    "powerpoint",
+    "data-analysis",
+    "kpi-tracking"
+  ],
+  "bulletConstraints": {
+    "summaryMaxLines": 4,
+    "experienceMaxLines": 6,
+    "educationMaxLines": 8,
+    "skillsMaxLines": 8,
+    "projectsMaxLines": 0
+  },
+  "active": true,
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-01-31T00:00:00Z",
+    "atsCompatible": true
+  }
+}
