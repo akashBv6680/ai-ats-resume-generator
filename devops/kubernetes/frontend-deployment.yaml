@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ats-frontend
+  labels:
+    app: ats-frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ats-frontend
+  template:
+    metadata:
+      labels:
+        app: ats-frontend
+    spec:
+      containers:
+        - name: ats-frontend
+          image: your-registry/ats-frontend:latest
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "256Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ats-frontend
+spec:
+  type: LoadBalancer
+  selector:
+    app: ats-frontend
+  ports:
+    - port: 80
+      targetPort: 80
