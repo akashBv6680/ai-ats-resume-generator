@@ -1,0 +1,33 @@
+{
+  "profession": "marketing",
+  "specialization": "digital",
+  "seniority": "junior",
+  "sectionOrder": ["summary", "education", "skills", "experience"],
+  "keywords": [
+    "digital-marketing",
+    "social-media",
+    "content-creation",
+    "seo",
+    "sem",
+    "google-analytics",
+    "email-marketing",
+    "copywriting",
+    "campaign-support",
+    "brand-awareness",
+    "engagement",
+    "reporting"
+  ],
+  "bulletConstraints": {
+    "summaryMaxLines": 4,
+    "experienceMaxLines": 6,
+    "educationMaxLines": 8,
+    "skillsMaxLines": 8,
+    "projectsMaxLines": 0
+  },
+  "active": true,
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-01-31T00:00:00Z",
+    "atsCompatible": true
+  }
+}
