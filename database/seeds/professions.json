@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Software Engineer",
+    "code": "software-engineer",
+    "active": true
+  },
+  {
+    "name": "Data Scientist",
+    "code": "data-scientist",
+    "active": true
+  },
+  {
+    "name": "Marketing",
+    "code": "marketing",
+    "active": true
+  },
+  {
+    "name": "Finance",
+    "code": "finance",
+    "active": true
+  }
+]
